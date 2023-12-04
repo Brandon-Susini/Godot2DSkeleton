@@ -66,3 +66,12 @@ position = Vector2(-72, -56)
 auto_calculate_length_and_angle = false
 length = 180.0
 bone_angle = 0.0
+
+[node name="arm_right" type="Bone2D" parent="skeleton/hip/chest"]
+position = Vector2(-104, -16)
+
+[node name="hand_right" type="Bone2D" parent="skeleton/hip/chest/arm_right"]
+position = Vector2(-8, 96)
+auto_calculate_length_and_angle = false
+length = 148.71
+bone_angle = 84.0
